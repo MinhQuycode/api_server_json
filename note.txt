@@ -1,0 +1,18 @@
+npm init
+touch .gitignore // search gitignore generator
+npm i json-server
+npm i --save-dev nodemon
+
+coppy file main.js from https://github.com/typicode/json-server#custom-routes-example
+=> npm run dev
+ 
+=> add package.json 
+"dev" :"nodemon main.js",
+"start":"node main.js"
+
+
+
+  /// Random data
+  npm i --save-dev faker
+  create file generate-data.js => import faker 
+  https://rawgit.com/Marak/faker.js/master/examples/browser/index.html

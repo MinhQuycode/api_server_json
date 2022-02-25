@@ -1,0 +1,58 @@
+#product
+@baseUrl = http://localhost:8080/api/products
+
+
+# @name filterOne
+GET {{baseUrl}}?name=Refined Concrete Chips&price_gte=200
+
+###
+
+# @name filterAny
+GET {{baseUrl}}?name_like=a
+
+###
+
+# @name pagination
+GET {{baseUrl}}?_page=1&_limit=2
+
+###
+
+# @name sort
+#asc tăng dần
+#desc giảm dần
+GET {{baseUrl}}?_sort=price&_order=desc
+
+###
+
+# @name getAllproducts
+GET {{baseUrl}}
+
+###
+
+# @name addNewproducts
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "name": "Iphone 7",
+    "price": "500000",
+    "image": "https://cdn.tgdd.vn/Products/Images/42/103404/samsung-galaxy-j7-pro-hh-600x600.jpg"
+}
+
+###
+
+# @name updateproducts
+
+PATCH {{baseUrl}}/8
+Content-Type: application/json
+
+{
+    "name": "Iphone 9",
+    "price": "1500000"
+}
+
+###
+# @name deleteproducts
+
+DELETE  {{baseUrl}}/9

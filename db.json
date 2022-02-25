@@ -1,0 +1,75 @@
+{
+  "products": [
+    {
+      "name": "Fantastic",
+      "price": "7067",
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626781887008,
+      "id": "ce7cd370-4dd6-4143-8c00-cec2fae24ef3"
+    },
+    {
+      "id": "a3749106-be5b-4810-a770-0ea1768ed6dd",
+      "name": "Intelligent Concrete Gloves",
+      "price": 598,
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626745092747,
+      "updatedAt": 1626745092747
+    },
+    {
+      "id": "9c78f953-0d93-4a52-9289-aceee31c9409",
+      "name": "Awesome Metal Hat",
+      "price": 318,
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626745092748,
+      "updatedAt": 1626745092748
+    },
+    {
+      "id": "67ce646d-1556-4e97-a043-63f5a5d5dda7",
+      "name": "Refined Granite Bike",
+      "price": 4,
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626745092748,
+      "updatedAt": 1626745092748
+    },
+    {
+      "id": "0a284517-109b-455e-b052-033e7da7a037",
+      "name": "Awesome Frozen Car",
+      "price": 992,
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626745092748,
+      "updatedAt": 1626745092748
+    },
+    {
+      "id": "3b1ec07c-169c-4386-ba3f-5fe2c90f6c69",
+      "name": "Refined Cotton Table",
+      "price": 808,
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626745092749,
+      "updatedAt": 1626745092749
+    },
+    {
+      "id": "c25b9364-42a3-490e-a52d-84c30e82be00",
+      "name": "Intelligent Soft Bacon",
+      "price": 975,
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626745092749,
+      "updatedAt": 1626745092749
+    },
+    {
+      "name": "Practical Granite Pizza",
+      "price": "869000",
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626745460432,
+      "updatedAt": 1626745460432,
+      "id": "qCM90Vj"
+    },
+    {
+      "name": "Quý",
+      "price": 706,
+      "image": "http://placeimg.com/70/90",
+      "createdAt": 1626780583817,
+      "updatedAt": 1626780583817,
+      "id": "fpkaSRY"
+    }
+  ]
+}
